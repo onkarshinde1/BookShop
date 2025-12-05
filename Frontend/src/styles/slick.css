@@ -1,0 +1,49 @@
+/* Minimal slick core styles (cleaned for Vite/Tailwind/DaisyUI) */
+
+/* Slider container */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+}
+
+/* Masking container */
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Track that moves slides */
+.slick-track {
+  display: flex;
+  align-items: stretch;
+  transition: transform 0.5s ease;
+  will-change: transform;
+}
+
+/* Slide */
+.slick-slide {
+  display: block;
+  min-width: 0; /* prevents overflow issues */
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* default slide inner wrapper (if your slides contain elements) */
+.slick-slide > div {
+  height: 100%;
+}
+
+/* Utility for hidden slides (when infinite: false) */
+.slick-hidden { display: none !important; }
