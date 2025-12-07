@@ -6,7 +6,7 @@
     "price": 110,
     "mode": "paid",
     "category": "Self Help",
-    "image": "https://m.media-amazon.com/images/I/81MQh7LndSL._SY342_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "price": 0,
     "mode": "free",
     "category": "Self Improvement",
-    "image": "https://m.media-amazon.com/images/I/51U+wsHHOVL._AC_UY327_FMwebp_QL65_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "price": 120,
     "mode": "paid",
     "category": "Finance",
-    "image": "https://m.media-amazon.com/images/I/71HJj3XmheL._AC_UY327_FMwebp_QL65_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "price": 0,
     "mode": "free",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/81RfAq5pqKL._AC_UY327_FMwebp_QL65_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "price": 150,
     "mode": "paid",
     "category": "Spiritual",
-    "image": "https://m.media-amazon.com/images/I/51d7LooDKlL._AC_UY327_FMwebp_QL65_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "price": 0,
     "mode": "free",
     "category": "Finance",
-    "image": "https://m.media-amazon.com/images/I/71MieU3CTYL._AC_UY327_FMwebp_QL65_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "price": 130,
     "mode": "paid",
     "category": "Productivity",
-    "image": "https://m.media-amazon.com/images/I/31O7mZRFFGL._SY445_SX342_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "price": 0,
     "mode": "free",
     "category": "Self Help",
-    "image": "https://m.media-amazon.com/images/I/51T8OXMiB5L._SY445_SX342_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "price": 110,
     "mode": "paid",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/81T05w0B3lL._AC_UY327_FMwebp_QL65_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "price": 0,
     "mode": "free",
     "category": "Fiction",
-    "image": "https://m.media-amazon.com/images/I/617lxveUjYL._AC_UY327_FMwebp_QL65_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "price": 140,
     "mode": "paid",
     "category": "Self Help",
-    "image": "https://m.media-amazon.com/images/I/618XGVFYlwL._AC_UY327_FMwebp_QL65_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 12,
@@ -105,9 +105,8 @@
     "price": 0,
     "mode": "free",
     "category": "Self Development",
-    "image": "https://m.media-amazon.com/images/I/81A5jQHA+lL._AC_UY327_FMwebp_QL65_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
-
   {
     "id": 13,
     "name": "The 5 AM Club",
@@ -115,7 +114,7 @@
     "price": 160,
     "mode": "paid",
     "category": "Self Improvement",
-    "image": "https://m.media-amazon.com/images/I/71zytzrg6lL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 14,
@@ -124,7 +123,7 @@
     "price": 0,
     "mode": "free",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/71KrWfAl9pL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 15,
@@ -133,7 +132,7 @@
     "price": 130,
     "mode": "paid",
     "category": "Self Help",
-    "image": "https://m.media-amazon.com/images/I/81jgCiNJPUL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 16,
@@ -142,7 +141,7 @@
     "price": 0,
     "mode": "free",
     "category": "Spiritual",
-    "image": "https://m.media-amazon.com/images/I/71X4GVDsvwL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 17,
@@ -151,7 +150,7 @@
     "price": 140,
     "mode": "paid",
     "category": "Business",
-    "image": "https://m.media-amazon.com/images/I/71m-MxdJ2WL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 18,
@@ -160,7 +159,7 @@
     "price": 0,
     "mode": "free",
     "category": "Leadership",
-    "image": "https://m.media-amazon.com/images/I/71I4lNMtEIL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 19,
@@ -169,7 +168,7 @@
     "price": 110,
     "mode": "paid",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/81Uc0W9mJQL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 20,
@@ -178,7 +177,7 @@
     "price": 0,
     "mode": "free",
     "category": "Psychology",
-    "image": "https://m.media-amazon.com/images/I/71JtLzJZ0jL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 21,
@@ -187,7 +186,7 @@
     "price": 150,
     "mode": "paid",
     "category": "Productivity",
-    "image": "https://m.media-amazon.com/images/I/71W6yZP1pCL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 22,
@@ -196,7 +195,7 @@
     "price": 0,
     "mode": "free",
     "category": "Psychology",
-    "image": "https://m.media-amazon.com/images/I/71cV7uxGiFL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 23,
@@ -205,7 +204,7 @@
     "price": 170,
     "mode": "paid",
     "category": "Finance",
-    "image": "https://m.media-amazon.com/images/I/91+t0Di07FL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 24,
@@ -214,7 +213,7 @@
     "price": 0,
     "mode": "free",
     "category": "Philosophy",
-    "image": "https://m.media-amazon.com/images/I/71UypkUjStL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 25,
@@ -223,7 +222,7 @@
     "price": 140,
     "mode": "paid",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/81xwVKP1WUL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 26,
@@ -232,7 +231,7 @@
     "price": 0,
     "mode": "free",
     "category": "Self Development",
-    "image": "https://m.media-amazon.com/images/I/71xZSHT9z1L._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 27,
@@ -241,7 +240,7 @@
     "price": 120,
     "mode": "paid",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/71i7mHX0pmL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 28,
@@ -250,7 +249,7 @@
     "price": 0,
     "mode": "free",
     "category": "Spiritual",
-    "image": "https://m.media-amazon.com/images/I/81WojUxbbFL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 29,
@@ -259,7 +258,7 @@
     "price": 130,
     "mode": "paid",
     "category": "Psychology",
-    "image": "https://m.media-amazon.com/images/I/81N4oe5E2eL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 30,
@@ -268,7 +267,7 @@
     "price": 0,
     "mode": "free",
     "category": "Self Improvement",
-    "image": "https://m.media-amazon.com/images/I/71E2FtJ3tTL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 31,
@@ -277,7 +276,7 @@
     "price": 140,
     "mode": "paid",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/81TjRLHaznL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 32,
@@ -286,7 +285,7 @@
     "price": 0,
     "mode": "free",
     "category": "Business",
-    "image": "https://m.media-amazon.com/images/I/71dw3-hyW-L._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 33,
@@ -295,7 +294,7 @@
     "price": 115,
     "mode": "paid",
     "category": "Finance",
-    "image": "https://m.media-amazon.com/images/I/81F2l9hCbxL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 34,
@@ -304,7 +303,7 @@
     "price": 0,
     "mode": "free",
     "category": "Self Help",
-    "image": "https://m.media-amazon.com/images/I/71G5kP7wNWL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 35,
@@ -313,7 +312,7 @@
     "price": 100,
     "mode": "paid",
     "category": "Philosophy",
-    "image": "https://m.media-amazon.com/images/I/71sN5y9JktL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 36,
@@ -322,7 +321,7 @@
     "price": 0,
     "mode": "free",
     "category": "Spiritual",
-    "image": "https://m.media-amazon.com/images/I/71l0LZLlmCL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 37,
@@ -331,7 +330,7 @@
     "price": 150,
     "mode": "paid",
     "category": "Self Development",
-    "image": "https://m.media-amazon.com/images/I/81nPh2XaY1L._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 38,
@@ -340,7 +339,7 @@
     "price": 0,
     "mode": "free",
     "category": "Leadership",
-    "image": "https://m.media-amazon.com/images/I/81+jCO6G0FL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 39,
@@ -349,7 +348,7 @@
     "price": 140,
     "mode": "paid",
     "category": "Self Help",
-    "image": "https://m.media-amazon.com/images/I/81bGds5RZTL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 40,
@@ -358,7 +357,7 @@
     "price": 0,
     "mode": "free",
     "category": "Self Development",
-    "image": "https://m.media-amazon.com/images/I/71KJtO4M1-L._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 41,
@@ -367,7 +366,7 @@
     "price": 160,
     "mode": "paid",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/71e0yS1u7IL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 42,
@@ -376,16 +375,16 @@
     "price": 0,
     "mode": "free",
     "category": "Self Growth",
-    "image": "https://m.media-amazon.com/images/I/71S9BDEBPCL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
-   {
+  {
     "id": 43,
     "name": "The Compound Effect",
     "description": "Small consistent actions that create massive results",
     "price": 130,
     "mode": "paid",
     "category": "Self Improvement",
-    "image": "https://m.media-amazon.com/images/I/71y7uJRUYFL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 44,
@@ -394,7 +393,7 @@
     "price": 0,
     "mode": "free",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/71V0nDqbGkL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 45,
@@ -403,7 +402,7 @@
     "price": 150,
     "mode": "paid",
     "category": "Productivity",
-    "image": "https://m.media-amazon.com/images/I/71j6Dkdtl6L._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 46,
@@ -412,7 +411,7 @@
     "price": 0,
     "mode": "free",
     "category": "Self Development",
-    "image": "https://m.media-amazon.com/images/I/71CoPuM7eCL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 47,
@@ -421,7 +420,7 @@
     "price": 145,
     "mode": "paid",
     "category": "Motivation",
-    "image": "https://m.media-amazon.com/images/I/81JxOZ6eQ0L._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 48,
@@ -430,7 +429,7 @@
     "price": 0,
     "mode": "free",
     "category": "Psychology",
-    "image": "https://m.media-amazon.com/images/I/71OKblRMRXL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 49,
@@ -439,7 +438,7 @@
     "price": 120,
     "mode": "paid",
     "category": "Spiritual",
-    "image": "https://m.media-amazon.com/images/I/81wKmZwvOeL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   },
   {
     "id": 50,
@@ -448,6 +447,6 @@
     "price": 0,
     "mode": "free",
     "category": "Self Help",
-    "image": "https://m.media-amazon.com/images/I/71k0tJRW8LL._AC_UY327_.jpg"
+    "image": "https://images.pexels.com/photos/34483144/pexels-photo-34483144.jpeg"
   }
 ]

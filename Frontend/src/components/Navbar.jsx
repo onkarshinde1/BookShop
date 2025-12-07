@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-// import Login from "./Login";
+import Login from "./Login";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(
@@ -175,7 +175,7 @@ const Navbar = () => {
             onClick={()=>document.getElementById("my_modal_3").showModal()}>
               Login
             </button>
-            {/* <Login /> */}
+            <Login />
           </div>
         </div>
       </div>

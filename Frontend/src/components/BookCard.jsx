@@ -2,7 +2,7 @@ import React from "react";
 
 const BookCard = ({ image, name, category, description,price }) => {
   return (
-    <div className="bg-white rounded-xl shadow p-4 hover:shadow-lg transition hover:scale-105 duration-200">
+    <div className="bg-white rounded-xl shadow p-4 hover:shadow-lg transition hover:scale-105 duration-200  dark:bg-slate-800 dark:text-white">
       <img
         src={image}
         alt={name}
