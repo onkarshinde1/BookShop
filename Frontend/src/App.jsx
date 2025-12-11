@@ -4,6 +4,7 @@ import Courses from "./courses/Courses";
 import { Routes, Route } from "react-router-dom";
 import Signup from "./components/Signup";
 import Contact from "./components/Contact";
+import About from "./components/About";
 
 
 const NotFound = () => (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/courses" element={<Courses/>} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/about" element={<About/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
