@@ -18,7 +18,7 @@ const App = () => {
     <div className="dark:bg-slate-900 dark:text-white">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/courses" element={<Courses/>} />
+        <Route path="/course" element={<Courses/>} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/about" element={<About/>} />

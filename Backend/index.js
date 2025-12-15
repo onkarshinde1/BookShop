@@ -1,11 +1,35 @@
-const express = require('express');
+import express from "express";
+import dotenv from "dotenv";
+import mongoose from "mongoose";
+import bookRoute from "./route/book.route.js"
+import cors from 'cors';
+
+dotenv.config();
+
 const app = express();
-const port = 3000;
 
-app.get('/', (req , res)=>{
-    console.log("hello world!")
-})
+app.use(cors());
+const PORT = process.env.PORT || 1207;
+const mongoDBURI = process.env.mongoDBURI;
 
-app.listen(port , ()=>{
-    console.log(`The app is listning in the port ${port}`);
-})
+// MongoDB connection
+const connectDB = async () => {
+  try {
+    await mongoose.connect(mongoDBURI);
+    console.log("✅ Connected to MongoDB");
+  } catch (error) {
+    console.error("❌ MongoDB connection error:", error);
+    process.exit(1);
+  }
+};
+
+connectDB();
+
+
+//definning routes
+
+app.use("/book" , bookRoute);
+
+app.listen(PORT, () => {
+  console.log(`🚀 Server running on port ${PORT}`);
+});

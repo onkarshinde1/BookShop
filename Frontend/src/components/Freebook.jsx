@@ -1,9 +1,24 @@
 import React from "react";
-import list from "../data/list.json";
 import BookCard from "../components/BookCard";
+import axios from "axios";
+import { useState } from "react";
+import { useEffect } from "react";
 
 const Freebook = () => {
-  const filterData = list.filter((data) => data.mode === "free");
+   const [book, setBook] = useState([]);
+    useEffect(() => {
+      const getBook = async () => {
+        try {
+          const res = await axios.get("http://localhost:2411/book");
+          const data = res.data.filter((data) => data.mode === "free");
+        setBook(data);
+        console.log(data)
+        } catch (error) {
+          console.log("Error :", error);
+        }
+      };
+      getBook();
+    }, []);
 
   return (
     <>
@@ -15,7 +30,7 @@ const Freebook = () => {
       </div>
 
       <div className="px-4 md:px-20 mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {filterData.map((item, index) => (
+        {book.map((item, index) => (
           <BookCard
             key={index}
             image={item.image}
