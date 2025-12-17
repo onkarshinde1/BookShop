@@ -4,18 +4,19 @@ import Login from "./Login";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark"
   );
 
+  const element = document.documentElement;
   useEffect(() => {
-    const element = document.documentElement;
-
     if (theme === "dark") {
-      element.classList.add("dark");     
+      element.classList.add("dark");
       localStorage.setItem("theme", "dark");
+      document.body.classList.add("dark");
     } else {
-      element.classList.remove("dark");  
+      element.classList.remove("dark");
       localStorage.setItem("theme", "light");
+      document.body.classList.remove("dark");
     }
   }, [theme]);
 
@@ -77,11 +78,7 @@ const Navbar = () => {
       <div className="navbar bg-base-100 dark:bg-transparent">
         <div className="navbar-start">
           <div className="dropdown">
-            <div
-              tabIndex={0}
-              role="button"
-              className="btn btn-ghost lg:hidden"
-            >
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -148,9 +145,7 @@ const Navbar = () => {
               type="checkbox"
               className="theme-controller"
               checked={theme === "dark"}
-              onChange={() =>
-                setTheme(theme === "light" ? "dark" : "light")
-              }
+              onChange={() => setTheme(theme === "light" ? "dark" : "light")}
             />
             {/* sun icon */}
             <svg
@@ -171,8 +166,10 @@ const Navbar = () => {
           </label>
 
           <div>
-            <button className="btn bg-black text-white dark:bg-white dark:text-black" 
-            onClick={()=>document.getElementById("my_modal_3").showModal()}>
+            <button
+              className="btn bg-black text-white dark:bg-white dark:text-black"
+              onClick={() => document.getElementById("my_modal_3").showModal()}
+            >
               Login
             </button>
             <Login />
