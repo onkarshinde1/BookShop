@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Login from "./Login";
+import axios from "axios";
 import { useForm } from "react-hook-form";
 
 const Signup = () => {
@@ -10,8 +11,27 @@ const Signup = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data);
+  const onSubmit = async (data) => {
+    const userInfo = {
+      fullname: data.fullname,
+      email: data.email,
+      password: data.password,
+    };
+    await axios
+      .post("http://localhost:2411/user/signup", userInfo)
+      .then((res) => {
+        console.log(res.data);
+        if (res.data) {
+          alert("Signup Successfully...!!");
+        }
+        localStorage.setItem("Users", JSON.stringify(res.data.user));
+      })
+      .catch((err) => {
+        if (err.response) {
+          console.log(err);
+          alert("Error : " + err.response.data.message);
+        }
+      });
   };
 
   return (
@@ -21,7 +41,7 @@ const Signup = () => {
           <Link
             to="/"
             className="btn btn-sm btn-circle btn-ghost absolute right-3 top-3"
-            onClick={()=> document.getElementById("my_model_3").close()}
+            onClick={() => document.getElementById("my_model_3").close()}
           >
             ✕
           </Link>
@@ -35,11 +55,11 @@ const Signup = () => {
             <label className="text-sm font-medium">Full Name</label>
             <input
               type="text"
-              {...register("fullName", { required: true })}
+              {...register("fullname", { required: true })}
               placeholder="Enter your full name"
               className="input input-bordered w-full"
             />
-            {errors.fullName && (
+            {errors.fullname && (
               <p className="text-red-500 text-xs">Full name is required</p>
             )}
           </div>
