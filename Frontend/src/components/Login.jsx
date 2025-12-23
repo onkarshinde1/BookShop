@@ -30,6 +30,7 @@ const Login = () => {
 
       // Close modal
       document.getElementById("my_modal_3").close();
+      window.location.reload();
     } catch (err) {
       if (err.response) {
         toast.error("Error : " + err.response.data.message);

@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Login from "./Login";
 import axios from "axios";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 
 const Signup = () => {
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "";
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
@@ -13,36 +17,45 @@ const Signup = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
-    const userInfo = {
-      fullname: data.fullname,
-      email: data.email,
-      password: data.password,
-    };
-    await axios
-      .post("http://localhost:2411/user/signup", userInfo)
-      .then((res) => {
-        console.log(res.data);
-        if (res.data) {
-          toast.success("Signup Successfully...!!");
-        }
-        localStorage.setItem("Users", JSON.stringify(res.data.user));
-      })
-      .catch((err) => {
-        if (err.response) {
-          console.log(err);
-          toast.error("Error : " + err.response.data.message);
-        }
-      });
+    try {
+      const userInfo = {
+        fullname: data.fullname,
+        email: data.email.trim(),
+        password: data.password,
+      };
+
+      const res = await axios.post(
+        "http://localhost:2411/user/signup",
+        userInfo
+      );
+
+      toast.success("Signup successful, please login");
+
+      // ❌ signup ke baad user ko login mat karo
+      // localStorage.setItem("Users", JSON.stringify(res.data.user));
+
+      navigate(from, { replace: true });
+    } catch (err) {
+      if (err.response) {
+        toast.error(err.response.data.message);
+      } else {
+        toast.error("Server not responding");
+      }
+    }
   };
 
   return (
     <div className="w-full min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="model-box relative bg-white shadow-lg rounded-xl p-8 w-full max-w-md">
+      <div className="relative bg-white shadow-lg rounded-xl p-8 w-full max-w-md">
         <form onSubmit={handleSubmit(onSubmit)}>
+          
+          {/* Close Button */}
           <Link
             to="/"
             className="btn btn-sm btn-circle btn-ghost absolute right-3 top-3"
-            onClick={() => document.getElementById("my_model_3").close()}
+            onClick={() =>
+              document.getElementById("my_modal_3")?.close()
+            }
           >
             ✕
           </Link>
@@ -57,7 +70,6 @@ const Signup = () => {
             <input
               type="text"
               {...register("fullname", { required: true })}
-              placeholder="Enter your full name"
               className="input input-bordered w-full"
             />
             {errors.fullname && (
@@ -71,7 +83,6 @@ const Signup = () => {
             <input
               type="email"
               {...register("email", { required: true })}
-              placeholder="yourname@gmail.com"
               className="input input-bordered w-full"
             />
             {errors.email && (
@@ -85,7 +96,6 @@ const Signup = () => {
             <input
               type="password"
               {...register("password", { required: true })}
-              placeholder="•••••••••"
               className="input input-bordered w-full"
             />
             {errors.password && (
@@ -93,39 +103,24 @@ const Signup = () => {
             )}
           </div>
 
-          {/* Confirm Password */}
-          {/* <div className="flex flex-col gap-1 mt-2">
-            <label className="text-sm font-medium">Confirm Password</label>
-            <input
-              type="password"
-              {...register("confirmPassword", { required: true })}
-              placeholder="•••••••••"
-              className="input input-bordered w-full"
-            />
-            {errors.confirmPassword && (
-              <p className="text-red-500 text-xs">
-                Confirm Password is required
-              </p>
-            )}
-          </div> */}
-
           {/* Login redirect */}
-          <p className="text-sm pt-2 text-center">
+          <p className="text-sm pt-3 text-center">
             Already have an account?{" "}
             <button
               type="button"
-              className="text-blue-500 hover:underline cursor-pointer"
-              onClick={() => document.getElementById("my_modal_3").showModal()}
+              className="text-blue-500 hover:underline"
+              onClick={() =>
+                document.getElementById("my_modal_3").showModal()
+              }
             >
               Login
             </button>
             <Login />
           </p>
 
-          {/* Signup Button */}
           <button
             type="submit"
-            className="btn w-full bg-pink-500 hover:bg-pink-600 text-white border-none mt-3"
+            className="btn w-full bg-pink-500 hover:bg-pink-600 text-white border-none mt-4"
           >
             Create Account
           </button>
