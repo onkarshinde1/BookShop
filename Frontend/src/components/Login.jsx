@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import toast from "react-hot-toast";
 
 const Login = () => {
   const {
@@ -22,7 +23,7 @@ const Login = () => {
         userInfo
       );
 
-      alert("Login Successfully ✅");
+      toast.success('Successfully Login!');
 
       // Save logged-in user
       localStorage.setItem("Users", JSON.stringify(res.data.user));
@@ -31,7 +32,7 @@ const Login = () => {
       document.getElementById("my_modal_3").close();
     } catch (err) {
       if (err.response) {
-        alert("Error : " + err.response.data.message);
+        toast.error("Error : " + err.response.data.message);
       } else {
         alert("Server not responding");
       }
